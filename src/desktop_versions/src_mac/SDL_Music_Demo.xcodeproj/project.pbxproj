@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3F7FCE2C24F54800DF25A7 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F7FCD2C24F54800DF25A7 /* SDL2.framework */; };
+		3F3F7FD02C24F54800DF25A7 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F7FCF2C24F54800DF25A7 /* SDL2_image.framework */; };
+		3F3F7FD22C24F54900DF25A7 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F7FD12C24F54900DF25A7 /* SDL2_mixer.framework */; };
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* SDL_Music_Demo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* SDL_Music_Demo.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* SDL_Music_Demo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3F3F7FCD2C24F54800DF25A7 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Library/Frameworks/SDL2.framework; sourceTree = SDKROOT; };
+		3F3F7FCF2C24F54800DF25A7 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Library/Frameworks/SDL2_image.framework; sourceTree = SDKROOT; };
+		3F3F7FD12C24F54900DF25A7 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = Library/Frameworks/SDL2_mixer.framework; sourceTree = SDKROOT; };
+		3F3F7FF42C24F6AC00DF25A7 /* LetOurVoicesRiseLikeIncense.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LetOurVoicesRiseLikeIncense.mp3; sourceTree = "<group>"; };
+		3F3F7FF52C24F6AC00DF25A7 /* LetOurVoicesRiseLikeIncense.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = LetOurVoicesRiseLikeIncense.ogg; sourceTree = "<group>"; };
+		3F3F7FF72C24F6AC00DF25A7 /* title copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "title copy.jpg"; sourceTree = "<group>"; };
+		3F3F7FF82C24F6AC00DF25A7 /* title.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = title.jpg; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* SDL_Music_Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDL_Music_Demo; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* SDL_Music_Demo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SDL_Music_Demo.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3F7FCE2C24F54800DF25A7 /* SDL2.framework in Frameworks */,
+				3F3F7FD02C24F54800DF25A7 /* SDL2_image.framework in Frameworks */,
+				3F3F7FD22C24F54900DF25A7 /* SDL2_mixer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SDL_Music_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F7FF22C24F6AC00DF25A7 /* assets */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = SDL_Music_Demo;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* SDL_Music_Demo */,
+				3F3F7FCD2C24F54800DF25A7 /* SDL2.framework */,
+				3F3F7FCF2C24F54800DF25A7 /* SDL2_image.framework */,
+				3F3F7FD12C24F54900DF25A7 /* SDL2_mixer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3F7FF22C24F6AC00DF25A7 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F7FF32C24F6AC00DF25A7 /* audio */,
+				3F3F7FF62C24F6AC00DF25A7 /* img */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		3F3F7FF32C24F6AC00DF25A7 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F7FF42C24F6AC00DF25A7 /* LetOurVoicesRiseLikeIncense.mp3 */,
+				3F3F7FF52C24F6AC00DF25A7 /* LetOurVoicesRiseLikeIncense.ogg */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		3F3F7FF62C24F6AC00DF25A7 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F7FF72C24F6AC00DF25A7 /* title copy.jpg */,
+				3F3F7FF82C24F6AC00DF25A7 /* title.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* SDL_Music_Demo.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* SDL_Music_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "SDL_Music_Demo" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDL_Music_Demo;
+			productInstallPath = "$(HOME)/bin";
+			productName = SDL_Music_Demo;
+			productReference = 8DD76F6C0486A84900D96B5E /* SDL_Music_Demo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "SDL_Music_Demo" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SDL_Music_Demo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* SDL_Music_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SDL_Music_Demo;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SDL_Music_Demo;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "SDL_Music_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "SDL_Music_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
